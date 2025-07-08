@@ -344,7 +344,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/assets/pdf/Jiwon_CV.pdf";
+            window.location.href = "/assets/pdf/example_pdf.pdf";
           
         },
       },{id: "post-a-post-with-diagrams",
