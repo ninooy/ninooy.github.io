@@ -1,200 +1,158 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+  "name": "Yoon Ji Won",
+  "label": "Robotics Researcher",
+  "summary": "I am a robotics researcher who enjoys understanding and designing systems through the lens of dynamics. [cite: 4] From physical prototyping to simulation and control, I approach problems by grounding them in models that reflect how robots actually move, react, and interact with the world. [cite: 5] My work integrates hands-on hardware development with model-based reasoning, and I'm particularly drawn to challenges where analytical structure and physical intuition come together. [cite: 6]",
+  "location": {
+  "city": "Seoul",
+  "country": "Korea"
   },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
+  "contact": {
+  "email": "younjw813@korea.ac.kr",
+  "phone": "+82)10-3322-7991"
+  }
+  },
   "education": [
-    {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
+  {
+  "institution": "Korea University",
+  "area": "Mechanical Engineering",
+  "studyType": "BS",
+  "startDate": "2019-03",
+  "endDate": "2026-02",
+  "gpa": "3.67/4.0 (Overall), 3.74/4.0(Major)",
+  "courses": [
+  "Robotics",
+  "Mechatronics",
+  "Dynamics",
+  "Microprocessor Programming",
+  "Numerical Analysis"
   ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
+  "other": "Military Service: Republic of Korea Air Force (June 2021 - Mar 2023)"
+  }
   ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
+  "experience": [
+  {
+  "position": "Research Internship",
+  "name": "KIST-Korea Institute Science and Technology",
+  "location": "Seoul",
+  "startDate": "2024-06",
+  "endDate": "2025-08",
+  "summary": "Robogram Lab (Advisor: Dr. Yong Seok Ihn) [cite: 15]",
+  "highlights": [
+  "Built real-time control systems and applied optimal controllers (PID, LQR, MPC) for torque-controlled arms using EtherCAT and C++/MATLAB. [cite: 17]",
+  "Designed and fabricated a compact 2-DoF wrist module with high backdrivability, and validated the design through FEA and physical testing. [cite: 18]"
+  ]
+  }
   ],
   "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
+  {
+  "title": "Optimization of Shoulder Joint Frame Angles for Torque and Energy Performance Improvement in 7-DOF Humanoid Arms.",
+  "authors": "Jiwon Yoon, Yong Seok Ihn*",
+  "date": "2025-02",
+  "conference": "Korea Robotics Society Annual Conference (KROC)",
+  "summary": "Excellence Undergraduate Paper Award [cite: 23]"
+  },
+  {
+  "title": "Optimization Framework of the Shoulder Base Frame Initial Angle for Enhanced Dynamic Performance in a Humanoid Robotic Arm.",
+  "authors": "Jiwon Yoon, Sujin Lee, Yong Seok Ihn*",
+  "date": "2025-10",
+  "conference": "International Conference on Intelligent Robots and Systems (IROS)",
+  "summary": "Accepted for Oral Presentation [cite: 28]"
+  }
   ],
   "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
-  ]
-}
+  {
+  "name": "Dynamic Workspace Optimisation of KAPEX Humanoid Arm (KIST)",
+  "startDate": "2024-11",
+  "endDate": "2025-03",
+  "summary": "Developed and experimentally validated a multi-metric optimisation framework for adjusting the shoulder base angles of KIST's dual-arm humanoid robot (KAPEX), integrating torque efficiency, energy consumption, and overload ratio. [cite: 32] Implemented effective workspace analysis using a hybrid MuJoCo-RBDL simulation to demonstrate an 18.4% workspace expansion and improved task performance. [cite: 33] (Published at IROS 2025) [cite: 34]",
+  "tools": "Python, C++, MuJoCo, Isaac sim [cite: 34]"
+  },
+  {
+  "name": "Design and Prototyping of a Compact Parallel Wrist Module for KAPEX Humanoid Robots (KIST)",
+  "startDate": "2024-11",
+  "endDate": "2025-06",
+  "summary": "Designed, fabricated, and assembled a compact 2-DoF wrist module (75x45mm) featuring a parallel-drive architecture optimised for high backdrivability and joint torque efficiency. [cite: 37] Developed a forward kinematics model for the non-conventional mechanism and validated the structural robustness through finite element analysis (FEA) prior to machining. [cite: 38] Led full-cycle development from CAD modelling and tolerance specification to part manufacturing, hardware integration, and functional testing on the KIST humanoid platform. [cite: 39, 40]",
+  "tools": "SolidWorks, MuJoCo, Matlab [cite: 40]"
+  },
+  {
+  "name": "Real-Time Control System Development for Torque-Controlled Robotic Arms (KIST)",
+  "startDate": "2024-06",
+  "endDate": "2024-09",
+  "summary": "Built a real-time control architecture using EtherCAT communication, EPOS4/ELMO motor drivers, and BLDC actuators. [cite: 44] Implemented DH-based forward kinematics and Jacobian computation in C++/MATLAB, and applied PID, LQR, and MPC controllers for trajectory tracking and stability improvement. [cite: 45]",
+  "tools": "C, C++, MATLAB-Simulink [cite: 46]"
+  },
+  {
+  "name": "Design and Control of a Low-Cost Quadruped Robot with SLAM and Obstacle Avoidance (Korea University CCP Project)",
+  "startDate": "2024-06",
+  "endDate": "2025-01",
+  "summary": "Led the mechanical and control system design of a custom-built quadruped robot equipped with Jetson Nano and Intel Realsense D435 for visual-inertial ORB-SLAM3-based localisation. [cite: 49] Developed a motor control framework using ROS2 and ros2_control, and applied Simulink-based plant modelling to derive torque requirements, leading to optimal actuator selection. [cite: 50] (Awarded the President's Prize) [cite: 51]",
+  "tools": "C, C++, Ros2, MATLAB-Simulink, SolidWorks [cite: 52]"
+  },
+  {
+  "name": "Design and Fabrication of a Sun-Tracking Smart Parasol (KU Creative Design Contest)",
+  "startDate": "2023-06",
+  "endDate": "2023-09",
+  "summary": "Developed a 2-DoF solar-tracking parasol system using light sensors and passive joint structures to autonomously adjust tilt based on solar position. [cite: 55] Executed full-cycle development including CAD-based mechanical design, gear ratio calculation, shading area optimisation, and energy efficiency analysis. [cite: 56] Independently acquired machining skills (welding, grinding) to fabricate and assemble the frame within budget constraints; awarded Bronze Prize for system integration and creativity. [cite: 57, 58] (Awarded the 3rd Prize) [cite: 58]",
+  "tools": "Nx, Creo, Arduino Mega [cite: 59]"
+  }
+  ],
+  "awards": [
+  {
+  "title": "Semester High Honors",
+  "awarder": "Korea University",
+  "date": "2023, 2025"
+  },
+  {
+  "title": "3rd Place, Creative Design Contest",
+  "awarder": "Korea University",
+  "date": "2023-2024"
+  },
+  {
+  "title": "Project Excellence Award",
+  "awarder": "HD Hyundai XiteSolution",
+  "date": "2023"
+  },
+  {
+  "title": "Award of Recognition",
+  "awarder": "Gyeonggi Provincial Council",
+  "date": "2024"
+  },
+  {
+  "title": "3rd Place, Inter-Department Basketball Tournament",
+  "awarder": "Korea University",
+  "date": "2024"
+  },
+  {
+  "title": "Excellence Paper Award",
+  "awarder": "Korea Robotics Society Annual Conference",
+  "date": "2025"
+  },
+  {
+  "title": "University President's Award, Creative Challenge Program",
+  "awarder": "Korea University",
+  "date": "2025"
+  }
+  ],
+  "scholarships": [
+  {
+  "name": "Merit-based Scholarship",
+  "funder": "Seoul Scholarship Foundation",
+  "date": "2024"
+  },
+  {
+  "name": "Korea University Student Excellence Scholarship",
+  "funder": "Korea University",
+  "date": "2023-2025"
+  },
+  {
+  "name": "Government National Scholarship",
+  "funder": "Korea Student Aid Foundation",
+  "date": "2019, 2024-2025"
+  }
+  ],
+  "skills": {
+  "languages": "C, C++, Python, Matlab, Latex [cite: 63]",
+  "tools": "SolidWorks, Nx, Creo, Matlab-Simulink, MuJoCo, Isaac sim, Ros2, Arduino, Jetson Nano [cite: 64]"
+  }
+ }
