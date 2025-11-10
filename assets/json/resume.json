@@ -14,6 +14,24 @@
   },
   "education": [
     {
+      "institution": "Korea Advanced Institute of Science Technology",
+      "area": "Mechanical Engineering",
+      "studyType": "B.S.",
+      "startDate": "Mar 2026",
+      "endDate": "Feb 2028 (Expected)",
+      "gpa": "TBD",
+      "courses": [
+        "Robotics",
+        "Mechatronics",
+        "Dynamics",
+        "Microprocessor Programming",
+        "Kinematics",
+        "Manufacturing Processes",
+        "Computer-Aided Design"
+      ],
+      "other": "Entered as Robotics Educational Program for Samsung Electronics(REPS)"
+    },
+    {
       "institution": "Korea University",
       "area": "Mechanical Engineering",
       "studyType": "B.S.",
@@ -21,16 +39,17 @@
       "endDate": "Feb 2026 (Expected)",
       "gpa": "3.94/4.5 (Overall), 4.03/4.5 (Major)",
       "courses": [
-        "Robotics (A+)",
-        "Mechatronics (A+)",
-        "Dynamics (A+)",
-        "Microprocessor Programming (A+)",
-        "Kinematics (A+)",
-        "Manufacturing Processes (A+)",
-        "Computer-Aided Design (A+)"
+        "Robotics",
+        "Mechatronics",
+        "Dynamics",
+        "Microprocessor Programming",
+        "Kinematics",
+        "Manufacturing Processes",
+        "Computer-Aided Design"
       ],
       "other": "Military Service: Republic of Korea Air Force, 10th Fighter Wing (Jun 2021- Mar 2023). Air Defence Artillery; Honorably discharged."
     }
+    
   ],
   "experience": [
     {
@@ -41,9 +60,10 @@
       "endDate": "Aug 2025",
       "summary": "Robogram Lab | Advisor: Dr. Yong Seok Ihn",
       "highlights": [
-        "KAPEX(KIST Next-Generation Humanoid) - Arm Design: Developed multi-metric optimization framework combining RBDL and MuJoCo to optimize shoulder joint angles, achieving 18.4% workspace expansion while minimizing joint torques and energy consumption. First author on research accepted for oral presentation at IROS 2025. Designed and fabricated compact (45mm x 75mm) 2-DoF wrist module with 6mm ball screw mechanism, achieving high backdrivability for safe human-robot interaction.",
-        "Self-Driving Laboratory - Bimanual Manipulation System: Designed novel antiparallelogram linkage shoulder mechanism with optimized link lengths, expanding bimanual workspace by 4.3% for confined space manipulation. Achieved low-inertia rolling contact motion through kinematic optimization.",
-        "Microsurgical Robotic System - Real-Time Control: Implemented C-based real-time multi-axis motor control using EtherCAT protocol (PDO). Developed and validated synchronous control modes (PPM, CSV) on EPOS4 controllers."
+        "Developed multi-metric optimization framework... achieving 18.4% workspace expansion...",
+        "Designed and fabricated compact (45mm x 75mm) 2-DoF wrist module... achieving high backdrivability...",
+        "Designed novel antiparallelogram linkage shoulder mechanism... expanding bimanual workspace by 4.3%...",
+        "Implemented C-based real-time multi-axis motor control using EtherCAT protocol (PDO)."
       ]
     }
   ],
@@ -65,6 +85,27 @@
   ],
   "projects": [
     {
+      "name": "KAPEX(KIST Next-Generation Humanoid) - Arm Design",
+      "startDate": "Jun 2024",
+      "endDate": "Aug 2025",
+      "summary": "Developed multi-metric optimization framework combining RBDL and MuJoCo to optimize shoulder joint angles, achieving 18.4% workspace expansion while minimizing joint torques and energy consumption. First author on research accepted for oral presentation at IROS 2025. Designed and fabricated compact (45mm x 75mm) 2-DoF wrist module with 6mm ball screw mechanism, achieving high backdrivability for safe human-robot interaction.",
+      "tools": "RBDL, MuJoCo, SolidWorks"
+    },
+    {
+      "name": "Self-Driving Laboratory - Bimanual Manipulation System",
+      "startDate": "Jun 2024",
+      "endDate": "Aug 2025",
+      "summary": "Designed novel antiparallelogram linkage shoulder mechanism with optimized link lengths, expanding bimanual workspace by 4.3% for confined space manipulation. Achieved low-inertia rolling contact motion through kinematic optimization.",
+      "tools": "SolidWorks"
+    },
+    {
+      "name": "Microsurgical Robotic System - Real-Time Control",
+      "startDate": "Jun 2024",
+      "endDate": "Aug 2025",
+      "summary": "Implemented C-based real-time multi-axis motor control using EtherCAT protocol (PDO). Developed and validated synchronous control modes (PPM, CSV) on EPOS4 controllers.",
+      "tools": "C, EtherCAT, EPOS4"
+    },
+    {
       "name": "Electric Motor Design and Fabrication",
       "startDate": "Apr 2025",
       "endDate": "Jul 2025",
@@ -76,7 +117,7 @@
       "startDate": "Jun 2023",
       "endDate": "Sep 2023",
       "summary": "Korea University Creative Design Contest. Designed 2-DoF solar tracking system to maximize shade coverage area throughout the day. Fabricated functional prototype using acquired machining skills (welding, grinding). Awarded 3rd Place among 12 competing teams.",
-      "tools": ""
+      "tools": "Arduino"
     }
   ],
   "awards": [
