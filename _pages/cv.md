@@ -4,8 +4,8 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 2
-cv_pdf: Jiwon_CV.pdf # you can also use external links here
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+cv_pdf: Jiwon_CV_v4.pdf # you can also use external links here
+description: You can download CV as PDF by right PDF button
 toc:
   sidebar: left
 ---
