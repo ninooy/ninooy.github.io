@@ -27,6 +27,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Mechanical Engineering undergraduate at Korea University studying robotics, with a preference for first-principles, equation-driven problem-solving. My current focus is optimal robot design through hardware CAD and physics-based simulation using MuJoCo. I spent a year as a research intern at the Robogram Lab, Korea Institute of Science and Technology (KIST), where I developed a framework to determine the optimal shoulder angle for a 7-DoF humanoid arm and designed and assembled a backdrivable, parallel ball-screw wrist mechanism for human–robot interaction. I have been admitted to Korea Institute of Science and Technology(KAIST)’s Department of Mechanical Engineering through the REPS track and will begin research in the DRCD Lab from Spring 2026.
+!! NEED TO BE UPDATED (last update : 2025.11.14)!!
+list - about(70%) , blog (0%) , cv (50%) , publication (0%)
+
+I am a Mechanical Engineering undergraduate at Korea University studying robotics, with a preference for first-principles, equation-driven problem-solving. My current focus is optimal robot design through hardware CAD and physics-based simulation using MuJoCo. I spent a year as a research intern at the Robogram Lab, Korea Institute of Science and Technology (KIST), where I developed a framework to determine the optimal shoulder angle for a 7-DoF humanoid arm and designed and assembled a backdrivable, parallel ball-screw wrist mechanism for human–robot interaction.
+
+I have been admitted to Korea Institute of Science and Technology(KAIST)’s Department of Mechanical Engineering through the REPS track and will begin research in the DRCD Lab from Spring 2026.
 
 For further information, please refer to my CV

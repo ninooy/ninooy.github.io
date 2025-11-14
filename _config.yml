@@ -88,7 +88,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Jiwon_blog # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_description: Update is needed
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
