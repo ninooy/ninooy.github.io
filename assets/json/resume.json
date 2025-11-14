@@ -1,22 +1,9 @@
 {
-  "basics": {
-    "name": "Yoon Ji Won",
-    "label": "Robotics Researcher",
-    "summary": "Dynamics-based design and control for robotic systems. Optimization frameworks for energy-efficient motion and force control. Mechanism design for enhanced workspace and compliant interaction.",
-    "location": {
-      "city": "Seoul",
-      "country": "Korea"
-    },
-    "contact": {
-      "email": "younjw813@korea.ac.kr",
-      "phone": "(+82)10-3322-7991"
-    }
-  },
   "education": [
     {
       "institution": "Korea Advanced Institute of Science Technology",
       "area": "Mechanical Engineering",
-      "studyType": "B.S.",
+      "studyType": "M.S.",
       "startDate": "Mar 2026",
       "endDate": "Feb 2028 (Expected)",
       "gpa": "TBD",

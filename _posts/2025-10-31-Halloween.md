@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Great Night, Halloween Party
+title: Great Night, Halloween Party🎃
 date: 2025-10-31 23:59:59
 description: KUBA Halloween Party was held on THE BUNKER 😎
 tags: everyday_life
@@ -39,8 +39,8 @@ I hope you guys read this post while listening to the song! 🎧
 </div>
 
 <div class="row mt-3">
-    <div class="col-12 mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/halloween.MOV" class="img-fluid rounded z-depth-1" controls=true %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/halloween.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
 </div>
 <div class="caption">
@@ -48,6 +48,7 @@ I hope you guys read this post while listening to the song! 🎧
 </div>
 
 > We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
+
 > —Anais Nin
 
 This phrase seems suited to this post, so I just cited here!
@@ -62,7 +63,7 @@ This phrase seems suited to this post, so I just cited here!
     </div>
 </div>
 <div class="caption">
-    Left shows MVP(Dongha) for halloween party. Right shows thumbnail.
+    Left shows MVP(Dongha) for halloween party. Right shows our group.
 </div>
 
 I really appreciated for having halloween party with you guys. Thanks!

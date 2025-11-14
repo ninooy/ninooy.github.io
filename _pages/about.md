@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>Korea University</p>
     <p>145, Anam-ro, Seongbuk-gu</p>
-    <p>Seoul, 02841, Republic of Korea</p>
+    <p>Seoul, 02841, Korea</p>
 # info 적는 것 about 페이지 사진 밑
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
