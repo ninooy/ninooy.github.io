@@ -41,15 +41,15 @@ ninja.data = [{
             window.location.href = "/blog/2025/Halloween/";
           
         },
-      },{id: "post-a-post-with-plotly-js",
+      },{id: "post-iros-2025-shanghai-tour",
         
-          title: "a post with plotly.js",
+          title: "IROS 2025 / Shanghai Tour",
         
-        description: "this is what included plotly.js code could look like",
+        description: "EEE/RSJ International Conference on Intelligent Robots and Systems (IROS) was held on Hangzhou",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/play/";
+            window.location.href = "/blog/2025/IROS/";
           
         },
       },{id: "post-a-post-with-plotly-js",
@@ -60,7 +60,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/play-copy/";
+            window.location.href = "/blog/2025/test/";
           
         },
       },{id: "post-a-post-with-plotly-js",
