@@ -35,11 +35,34 @@ I hope you guys read this post while listening to the song! 🎧
     </div>
 </div>
 <div class="caption">
-    Left shows our group ppl. Right shows pop stars.
+    Left shows our group ppl. Right shows pop stars(Me / Joonui / Inkyu).
 </div>
 
 <div class="row mt-3">
     <div class="col-12 mt-3 mt-md-0">
-    {% include video.liquid path="assets/video/halloween.MOV" class="img-fluid rounded z-depth-1" controls=true %}
+        {% include video.liquid path="assets/video/halloween.MOV" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
 </div>
+<div class="caption">
+    This is what we did earlier.
+</div>
+
+> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
+> —Anais Nin
+
+This phrase seems suited to this post, so I just cited here!
+
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/halloween/3.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/halloween/4.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Left shows MVP(Dongha) for halloween party. Right shows thumbnail.
+</div>
+
+I really appreciated for having halloween party with you guys. Thanks!
