@@ -5,7 +5,7 @@ date: 2025-10-31 23:59:59
 description: KUBA Halloween Party was held on THE BUNKER
 tags: everyday_life
 categories: sample-posts
-thumbnail: assets/img/9.jpg
+thumbnail: assets/img/halloween/1.jpg
 ---
 
 I had a wonderful night.
@@ -22,7 +22,7 @@ I hope you guys read this post while listening to the song! 🎧
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://youtu.be/6ONRf7h3Mdk?si=yzWIhXBuRR2-7W_L" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid path="https://www.youtube.com/embed/6ONRf7h3Mdk?si=CGGuJCzZfeOUTcw5" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -35,5 +35,5 @@ I hope you guys read this post while listening to the song! 🎧
     </div>
 </div>
 <div class="caption">
-    Left shows our group ppl. Right shows joonui and me.
+    Left shows our group ppl. Right shows pop stars.
 </div>
