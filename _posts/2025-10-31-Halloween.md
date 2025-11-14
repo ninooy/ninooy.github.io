@@ -2,10 +2,10 @@
 layout: post
 title: Great Night, Halloween Party
 date: 2025-10-31 23:59:59
-description: KUBA Halloween Party was held on THE BUNKER
+description: KUBA Halloween Party was held on THE BUNKER 😎
 tags: everyday_life
 categories: sample-posts
-thumbnail: assets/img/halloween/1.jpg
+thumbnail: assets/img/1.jpeg
 ---
 
 I had a wonderful night.
@@ -36,4 +36,10 @@ I hope you guys read this post while listening to the song! 🎧
 </div>
 <div class="caption">
     Left shows our group ppl. Right shows pop stars.
+</div>
+
+<div class="row mt-3">
+    <div class="col-12 mt-3 mt-md-0">
+    {% include video.liquid path="assets/video/halloween.MOV" class="img-fluid rounded z-depth-1" controls=true %}
+    </div>
 </div>
