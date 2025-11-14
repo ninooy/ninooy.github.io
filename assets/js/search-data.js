@@ -34,7 +34,7 @@ ninja.data = [{
         
           title: "Great Night, Halloween Party",
         
-        description: "KUBA Halloween Party was held on THE BUNKER",
+        description: "KUBA Halloween Party was held on THE BUNKER 😎",
         section: "Posts",
         handler: () => {
           
