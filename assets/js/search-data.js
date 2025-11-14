@@ -45,7 +45,7 @@ ninja.data = [{
         
           title: "IROS 2025 / Shanghai Tour",
         
-        description: "EEE/RSJ International Conference on Intelligent Robots and Systems (IROS) was held on Hangzhou",
+        description: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) was held on Hangzhou",
         section: "Posts",
         handler: () => {
           
