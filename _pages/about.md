@@ -17,9 +17,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 
 announcements:
-  enabled: false # includes a list of news items
+  enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit:  # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: true
@@ -27,9 +27,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-!! NEED TO BE UPDATED (last update : 2025.11.14)!!
+!! NEED TO BE UPDATED (last update : 2025.11.15)!!
 
-list - about(70%) , blog (0%) , cv (50%) , publication (0%)
+list - about(70%) , blog (30%) , cv (80%) , publication (90%)
 
 I am a Mechanical Engineering undergraduate at Korea University studying robotics, with a preference for first-principles, equation-driven problem-solving. My current focus is optimal robot design through hardware CAD and physics-based simulation using MuJoCo. I spent a year as a research intern at the Robogram Lab, Korea Institute of Science and Technology (KIST), where I developed a framework to determine the optimal shoulder angle for a 7-DoF humanoid arm and designed and assembled a backdrivable, parallel ball-screw wrist mechanism for human–robot interaction.
 

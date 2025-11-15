@@ -5,7 +5,7 @@ title: cv
 nav: true
 nav_order: 2
 cv_pdf: Jiwon_CV_v4.pdf # you can also use external links here
-description: You can download CV as PDF by right PDF button
+description: 
 toc:
   sidebar: left
 ---
