@@ -52,15 +52,15 @@ ninja.data = [{
             window.location.href = "/blog/2025/IROS/";
           
         },
-      },{id: "post-test",
+      },{id: "post-hyundai-mobility-class-advanced-motor-class",
         
-          title: "test",
+          title: "Hyundai Mobility Class - Advanced Motor Class",
         
-        description: "this is what included plotly.js code could look like",
+        description: "designed and fabricated the motor, differential gear, and suspension components, and assembled them into a fully functional RC car🚗",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/test/";
+            window.location.href = "/blog/2025/Hyundai/";
           
         },
       },{id: "news-i-am-now-entering-korea-university-for-studying-mechanical-engineering",
