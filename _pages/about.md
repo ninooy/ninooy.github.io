@@ -27,12 +27,14 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-!! NEED TO BE UPDATED (last update : 2025.11.15)!!
+<span style="color:red">!! NEED TO BE UPDATED (last update : 2025.11.20)!!</span>
 
-list - about(70%) , blog (30%) , cv (80%) , publication (90%)
+list - about(70%) , blog (30%) , cv (80%) , publication (100%)
 
-I am a Mechanical Engineering undergraduate at Korea University studying robotics, with a preference for first-principles, equation-driven problem-solving. My current focus is optimal robot design through hardware CAD and physics-based simulation using MuJoCo. I spent a year as a research intern at the Robogram Lab, Korea Institute of Science and Technology (KIST), where I developed a framework to determine the optimal shoulder angle for a 7-DoF humanoid arm and designed and assembled a backdrivable, parallel ball-screw wrist mechanism for human–robot interaction.
+<b><i>BIOGRAPHY</i></b>
 
-I have been admitted to Korea Advanced Institute of Science and Technology(KAIST)’s Department of Mechanical Engineering through the REPS track and will begin research in the DRCD Lab from Spring 2026.
+I am a Mechanical Engineering undergraduate at <b><span style="color:red"> Korea University</span></b> studying robotics, with a preference for first-principles, equation-driven problem-solving. My current focus is optimal robot design through hardware CAD and physics-based simulation using MuJoCo. I spent a year as a research intern at <b>the Robogram Lab, Korea Institute of Science and Technology (KIST)</b>, where I developed a framework to determine the optimal shoulder angle for a 7-DoF humanoid arm and designed and assembled a backdrivable, parallel ball-screw wrist mechanism for human–robot interaction.
 
-For further information, please refer to my CV
+I have been admitted to <b>Korea Advanced Institute of Science and Technology(KAIST)’s Department of Mechanical Engineering</b> through the REPS track and will begin research in <b>the DRCD Lab</b> from Spring 2026.
+
+For further information, please refer to my CV!
