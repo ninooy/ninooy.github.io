@@ -52,9 +52,9 @@ ninja.data = [{
             window.location.href = "/blog/2025/IROS/";
           
         },
-      },{id: "post-hyundai-mobility-class-advanced-motor-class",
+      },{id: "post-hyundai-mobility-class-advanced-motor-class-️",
         
-          title: "Hyundai Mobility Class - Advanced Motor Class",
+          title: "Hyundai Mobility Class - Advanced Motor Class🏎️",
         
         description: "designed and fabricated the motor, differential gear, and suspension components, and assembled them into a fully functional RC car🚗",
         section: "Posts",
