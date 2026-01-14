@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-great-night-halloween-party",
+        },{id: "post-end-of-the-story-but-start-of-the-story",
+        
+          title: "End of the story, but start of the story📀",
+        
+        description: "Recap for my undergraduate 📔",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/Graduation/";
+          
+        },
+      },{id: "post-great-night-halloween-party",
         
           title: "Great Night, Halloween Party🎃",
         
