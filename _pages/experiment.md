@@ -25,6 +25,7 @@ nav_order: 5
 </div>
 
 <!-- Main Canvas -->
+
 <canvas id="game-canvas"></canvas>
 
 <!-- Back Button -->

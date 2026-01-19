@@ -1,29 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ site.lang }}">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>{{ page.title }} | {{ site.first_name }} {{ site.last_name }}</title>
-  <meta name="description" content="Jiwon's Interactive 3D Robotics Lab - Explore my CV through a humanoid robot">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>
+      {{ page.title }}
+      |
+      {{ site.first_name }}
+      {{ site.last_name }}
+    </title>
+    <meta name="description" content="Jiwon's Interactive 3D Robotics Lab - Explore my CV through a humanoid robot">
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    >
 
-  <!-- Three.js -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 
-  <!-- Styles -->
-  <link rel="stylesheet" href="{{ '/assets/css/experiment.css' | relative_url }}">
+    <!-- Styles -->
+    <link rel="stylesheet" href="{{ '/assets/css/experiment.css' | relative_url }}">
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="{{ '/assets/img/favicon.ico' | relative_url }}">
-</head>
-<body>
-  {{ content }}
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="{{ '/assets/img/favicon.ico' | relative_url }}">
+  </head>
+  <body>
+    {{ content }}
 
-  <!-- Main Script -->
-  <script src="{{ '/assets/js/experiment.js' | relative_url }}"></script>
-</body>
+    <!-- Main Script -->
+    <script src="{{ '/assets/js/experiment.js' | relative_url }}"></script>
+  </body>
 </html>

@@ -19,8 +19,8 @@
   --border-medium: #d1d5db;
   --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  --font-mono: 'JetBrains Mono', 'Fira Code', 'SF Mono', monospace;
-  --font-display: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", "SF Mono", monospace;
+  --font-display: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
 * {
@@ -29,7 +29,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -50,7 +51,9 @@ html, body {
   justify-content: center;
   align-items: center;
   z-index: 10000;
-  transition: opacity 0.6s ease, visibility 0.6s ease;
+  transition:
+    opacity 0.6s ease,
+    visibility 0.6s ease;
 }
 
 .loading-screen.hidden {
@@ -110,12 +113,22 @@ html, body {
   animation: blink 2s infinite;
 }
 
-.loading-robot .eye.left { left: 5px; }
-.loading-robot .eye.right { right: 5px; }
+.loading-robot .eye.left {
+  left: 5px;
+}
+.loading-robot .eye.right {
+  right: 5px;
+}
 
 @keyframes blink {
-  0%, 90%, 100% { opacity: 1; }
-  95% { opacity: 0.2; }
+  0%,
+  90%,
+  100% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 0.2;
+  }
 }
 
 .loading-robot .leg {
@@ -139,13 +152,23 @@ html, body {
 }
 
 @keyframes walkLeft {
-  0%, 100% { transform: rotate(-12deg); }
-  50% { transform: rotate(12deg); }
+  0%,
+  100% {
+    transform: rotate(-12deg);
+  }
+  50% {
+    transform: rotate(12deg);
+  }
 }
 
 @keyframes walkRight {
-  0%, 100% { transform: rotate(12deg); }
-  50% { transform: rotate(-12deg); }
+  0%,
+  100% {
+    transform: rotate(12deg);
+  }
+  50% {
+    transform: rotate(-12deg);
+  }
 }
 
 .loading-progress-container {
@@ -249,8 +272,15 @@ html, body {
 }
 
 @keyframes pulse {
-  0%, 100% { opacity: 1; transform: scale(1); }
-  50% { opacity: 0.7; transform: scale(1.1); }
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.1);
+  }
 }
 
 .hud-header-title {
@@ -538,9 +568,15 @@ html, body {
   border-radius: 50%;
 }
 
-.console-dot.red { background: #ef4444; }
-.console-dot.yellow { background: #eab308; }
-.console-dot.green { background: #22c55e; }
+.console-dot.red {
+  background: #ef4444;
+}
+.console-dot.yellow {
+  background: #eab308;
+}
+.console-dot.green {
+  background: #22c55e;
+}
 
 .console-title-text {
   font-size: 12px;

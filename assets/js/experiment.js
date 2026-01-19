@@ -8,8 +8,8 @@
 // ============================================
 const CV_DATA = {
   education: {
-    icon: '🎓',
-    title: 'EDUCATION',
+    icon: "🎓",
+    title: "EDUCATION",
     content: `
       <div class="info-section">
         <div class="info-section-title">Korea University</div>
@@ -32,11 +32,11 @@ const CV_DATA = {
           <div class="info-item-desc">Admitted through REPS track for graduate research</div>
         </div>
       </div>
-    `
+    `,
   },
   research: {
-    icon: '🔬',
-    title: 'RESEARCH EXPERIENCE',
+    icon: "🔬",
+    title: "RESEARCH EXPERIENCE",
     content: `
       <div class="info-section">
         <div class="info-section-title">KIST - Robogram Lab (Jun 2024 - Aug 2025)</div>
@@ -66,11 +66,11 @@ const CV_DATA = {
           </div>
         </div>
       </div>
-    `
+    `,
   },
   publications: {
-    icon: '📄',
-    title: 'PUBLICATIONS',
+    icon: "📄",
+    title: "PUBLICATIONS",
     content: `
       <div class="info-section">
         <div class="info-section-title">International Conference</div>
@@ -94,11 +94,11 @@ const CV_DATA = {
           </div>
         </div>
       </div>
-    `
+    `,
   },
   projects: {
-    icon: '🛠️',
-    title: 'PROJECTS',
+    icon: "🛠️",
+    title: "PROJECTS",
     content: `
       <div class="info-section">
         <div class="info-section-title">Selected Projects</div>
@@ -121,11 +121,11 @@ const CV_DATA = {
           </div>
         </div>
       </div>
-    `
+    `,
   },
   skills: {
-    icon: '💻',
-    title: 'TECHNICAL SKILLS',
+    icon: "💻",
+    title: "TECHNICAL SKILLS",
     content: `
       <div class="info-section">
         <div class="info-section-title">Programming</div>
@@ -164,11 +164,11 @@ const CV_DATA = {
           <span class="info-tag">English (Fluent)</span>
         </div>
       </div>
-    `
+    `,
   },
   awards: {
-    icon: '🏆',
-    title: 'HONORS & AWARDS',
+    icon: "🏆",
+    title: "HONORS & AWARDS",
     content: `
       <div class="info-section">
         <div class="info-section-title">Selected Awards</div>
@@ -193,11 +193,11 @@ const CV_DATA = {
           <div class="info-item-subtitle">Renewable</div>
         </div>
       </div>
-    `
+    `,
   },
   leadership: {
-    icon: '👥',
-    title: 'LEADERSHIP & SERVICE',
+    icon: "👥",
+    title: "LEADERSHIP & SERVICE",
     content: `
       <div class="info-section">
         <div class="info-section-title">Military Service</div>
@@ -225,8 +225,8 @@ const CV_DATA = {
           <div class="info-item-desc">International Student Festival Booth Leader (Indonesia); Outstanding Volunteer</div>
         </div>
       </div>
-    `
-  }
+    `,
+  },
 };
 
 // ============================================
@@ -234,7 +234,7 @@ const CV_DATA = {
 // ============================================
 const CONSOLE_COMMANDS = {
   help: {
-    desc: 'Show available commands',
+    desc: "Show available commands",
     exec: () => `
 <span class="info">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span>
 <span class="info">           AVAILABLE COMMANDS</span>
@@ -258,10 +258,10 @@ const CONSOLE_COMMANDS = {
 <span class="success">goto</span> <span class="warning">[loc]</span> Teleport to location
 
 <span class="info">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span>
-`
+`,
   },
   about: {
-    desc: 'About Jiwon',
+    desc: "About Jiwon",
     exec: () => `
 <span class="info">═══════════════════════════════════════</span>
 <span class="success">Yoon Ji Won (윤지원)</span>
@@ -277,10 +277,10 @@ Incoming Graduate Student @ KAIST DRCD Lab
   • Dynamics-based robot design and control
   • Optimization for energy-efficient motion
   • Mechanism design for compliant interaction
-`
+`,
   },
   contact: {
-    desc: 'Contact information',
+    desc: "Contact information",
     exec: () => `
 <span class="info">━━━━━━━━━ CONTACT ━━━━━━━━━</span>
 
@@ -288,10 +288,10 @@ Incoming Graduate Student @ KAIST DRCD Lab
   <span class="warning">Phone:</span>    (+82)10-3322-7991
   <span class="warning">Location:</span> Seoul, Korea
   <span class="warning">GitHub:</span>   github.com/ninooy
-`
+`,
   },
   skills: {
-    desc: 'Technical skills',
+    desc: "Technical skills",
     exec: () => `
 <span class="info">━━━━━━━━━ SKILLS ━━━━━━━━━</span>
 
@@ -303,10 +303,10 @@ Incoming Graduate Student @ KAIST DRCD Lab
 
 <span class="warning">Hardware:</span>
   Arduino, Jetson Nano, EtherCAT
-`
+`,
   },
   research: {
-    desc: 'Research interests',
+    desc: "Research interests",
     exec: () => `
 <span class="info">━━━━━━━ RESEARCH ━━━━━━━</span>
 
@@ -315,10 +315,10 @@ Incoming Graduate Student @ KAIST DRCD Lab
 • Mechanism design for enhanced workspace
 
 <span class="success">Recent:</span> IROS 2025 Oral (First Author)
-`
+`,
   },
   robot: {
-    desc: 'Robot status',
+    desc: "Robot status",
     exec: () => {
       const pos = humanoid ? humanoid.position : { x: 0, z: 0 };
       return `
@@ -329,10 +329,10 @@ Incoming Graduate Student @ KAIST DRCD Lab
   Battery: <span class="success">100%</span>
   Status: All systems nominal
 `;
-    }
+    },
   },
   map: {
-    desc: 'Map locations',
+    desc: "Map locations",
     exec: () => `
 <span class="info">━━━━━━━ LAB MAP ━━━━━━━</span>
 
@@ -346,10 +346,10 @@ Incoming Graduate Student @ KAIST DRCD Lab
   <span class="warning">center</span>       Center Platform
 
 <span class="info">Usage:</span> goto education
-`
+`,
   },
   goto: {
-    desc: 'Teleport to location',
+    desc: "Teleport to location",
     exec: (args) => {
       const locations = {
         education: { x: 0, z: -20 },
@@ -359,7 +359,7 @@ Incoming Graduate Student @ KAIST DRCD Lab
         skills: { x: 15, z: -15 },
         awards: { x: 15, z: 15 },
         leadership: { x: -15, z: -15 },
-        center: { x: 0, z: 0 }
+        center: { x: 0, z: 0 },
       };
 
       const loc = args[0]?.toLowerCase();
@@ -368,34 +368,35 @@ Incoming Graduate Student @ KAIST DRCD Lab
         humanoid.position.z = locations[loc].z;
         return `<span class="success">✓ Teleported to ${loc.toUpperCase()}</span>`;
       }
-      return `<span class="error">✗ Unknown location "${args[0] || ''}"</span>
+      return `<span class="error">✗ Unknown location "${args[0] || ""}"</span>
 <span class="info">Type 'map' to see available locations</span>`;
-    }
+    },
   },
   guestbook: {
-    desc: 'Sign guestbook',
+    desc: "Sign guestbook",
     exec: () => {
       showGuestbookForm();
       return `<span class="info">📝 Opening guestbook form...</span>`;
-    }
+    },
   },
   clear: {
-    desc: 'Clear console',
+    desc: "Clear console",
     exec: () => {
       setTimeout(() => {
-        const output = document.querySelector('.console-output');
+        const output = document.querySelector(".console-output");
         if (output) output.innerHTML = '<div class="console-line system">Console cleared. Type "help" for commands.</div>';
       }, 100);
-      return '';
-    }
-  }
+      return "";
+    },
+  },
 };
 
 // ============================================
 // GLOBAL VARIABLES
 // ============================================
 let scene, camera, renderer;
-let humanoid, humanoidParts = {};
+let humanoid,
+  humanoidParts = {};
 let buildings = {};
 let clock, delta;
 let isWalking = false;
@@ -411,13 +412,19 @@ const jointStates = {
   leftKnee: { load: 0 },
   rightKnee: { load: 0 },
   leftAnkle: { load: 0 },
-  rightAnkle: { load: 0 }
+  rightAnkle: { load: 0 },
 };
 
 // Input state
 const keys = {
-  w: false, a: false, s: false, d: false,
-  ArrowUp: false, ArrowLeft: false, ArrowDown: false, ArrowRight: false
+  w: false,
+  a: false,
+  s: false,
+  d: false,
+  ArrowUp: false,
+  ArrowLeft: false,
+  ArrowDown: false,
+  ArrowRight: false,
 };
 
 // Camera state
@@ -442,8 +449,8 @@ function init() {
 
   // Renderer
   renderer = new THREE.WebGLRenderer({
-    canvas: document.getElementById('game-canvas'),
-    antialias: true
+    canvas: document.getElementById("game-canvas"),
+    antialias: true,
   });
   renderer.setSize(window.innerWidth, window.innerHeight);
   renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
@@ -457,9 +464,9 @@ function init() {
   createHumanoid();
 
   // Event listeners
-  window.addEventListener('resize', onResize);
-  document.addEventListener('keydown', onKeyDown);
-  document.addEventListener('keyup', onKeyUp);
+  window.addEventListener("resize", onResize);
+  document.addEventListener("keydown", onKeyDown);
+  document.addEventListener("keyup", onKeyUp);
 
   // Initialize console
   initConsole();
@@ -478,30 +485,30 @@ function init() {
 // LOADING SIMULATION
 // ============================================
 function simulateLoading() {
-  const progressBar = document.querySelector('.loading-progress-bar');
-  const statusText = document.querySelector('.loading-status');
-  const loadingScreen = document.querySelector('.loading-screen');
+  const progressBar = document.querySelector(".loading-progress-bar");
+  const statusText = document.querySelector(".loading-status");
+  const loadingScreen = document.querySelector(".loading-screen");
 
   const stages = [
-    { progress: 20, text: 'Initializing Three.js...' },
-    { progress: 40, text: 'Loading robot model...' },
-    { progress: 60, text: 'Building lab environment...' },
-    { progress: 80, text: 'Calibrating joints...' },
-    { progress: 100, text: 'Ready!' }
+    { progress: 20, text: "Initializing Three.js..." },
+    { progress: 40, text: "Loading robot model..." },
+    { progress: 60, text: "Building lab environment..." },
+    { progress: 80, text: "Calibrating joints..." },
+    { progress: 100, text: "Ready!" },
   ];
 
   let currentStage = 0;
 
   const updateProgress = () => {
     if (currentStage < stages.length) {
-      progressBar.style.width = stages[currentStage].progress + '%';
+      progressBar.style.width = stages[currentStage].progress + "%";
       statusText.textContent = stages[currentStage].text;
       currentStage++;
       setTimeout(updateProgress, 400);
     } else {
       setTimeout(() => {
-        loadingScreen.classList.add('hidden');
-        printToConsole('System initialized. Type <span class="success">help</span> for commands.', 'system');
+        loadingScreen.classList.add("hidden");
+        printToConsole('System initialized. Type <span class="success">help</span> for commands.', "system");
       }, 500);
     }
   };
@@ -545,7 +552,7 @@ function createGround() {
   const groundMat = new THREE.MeshStandardMaterial({
     color: 0xe8ecf0,
     metalness: 0.1,
-    roughness: 0.8
+    roughness: 0.8,
   });
   const ground = new THREE.Mesh(groundGeo, groundMat);
   ground.rotation.x = -Math.PI / 2;
@@ -561,7 +568,7 @@ function createGround() {
   const platformMat = new THREE.MeshStandardMaterial({
     color: 0xffffff,
     metalness: 0.2,
-    roughness: 0.3
+    roughness: 0.3,
   });
   const platform = new THREE.Mesh(platformGeo, platformMat);
   platform.position.y = 0.15;
@@ -582,16 +589,16 @@ function createGround() {
 // ============================================
 function createBuildings() {
   const buildingData = [
-    { key: 'education', pos: [0, -25], color: 0x3b82f6, height: 12 },
-    { key: 'research', pos: [25, 0], color: 0x8b5cf6, height: 14 },
-    { key: 'publications', pos: [0, 25], color: 0x10b981, height: 16 },
-    { key: 'projects', pos: [-25, 0], color: 0xf59e0b, height: 11 },
-    { key: 'skills', pos: [18, -18], color: 0x06b6d4, height: 10 },
-    { key: 'awards', pos: [18, 18], color: 0xeab308, height: 13 },
-    { key: 'leadership', pos: [-18, -18], color: 0xef4444, height: 9 }
+    { key: "education", pos: [0, -25], color: 0x3b82f6, height: 12 },
+    { key: "research", pos: [25, 0], color: 0x8b5cf6, height: 14 },
+    { key: "publications", pos: [0, 25], color: 0x10b981, height: 16 },
+    { key: "projects", pos: [-25, 0], color: 0xf59e0b, height: 11 },
+    { key: "skills", pos: [18, -18], color: 0x06b6d4, height: 10 },
+    { key: "awards", pos: [18, 18], color: 0xeab308, height: 13 },
+    { key: "leadership", pos: [-18, -18], color: 0xef4444, height: 9 },
   ];
 
-  buildingData.forEach(data => {
+  buildingData.forEach((data) => {
     const building = createBuilding(data.color, data.height, data.key);
     building.position.set(data.pos[0], 0, data.pos[1]);
     scene.add(building);
@@ -600,18 +607,14 @@ function createBuildings() {
     const signpost = createSignpost(data.key, data.color);
     const angle = Math.atan2(data.pos[1], data.pos[0]);
     const signDist = 8;
-    signpost.position.set(
-      data.pos[0] - Math.cos(angle) * signDist,
-      0,
-      data.pos[1] - Math.sin(angle) * signDist
-    );
+    signpost.position.set(data.pos[0] - Math.cos(angle) * signDist, 0, data.pos[1] - Math.sin(angle) * signDist);
     signpost.rotation.y = angle + Math.PI;
     scene.add(signpost);
 
     buildings[data.key] = {
       mesh: building,
       position: { x: data.pos[0], z: data.pos[1] },
-      radius: 7
+      radius: 7,
     };
   });
 }
@@ -688,25 +691,25 @@ function createSignpost(name, color) {
   group.add(board);
 
   // Sign text (canvas texture)
-  const canvas = document.createElement('canvas');
+  const canvas = document.createElement("canvas");
   canvas.width = 256;
   canvas.height = 80;
-  const ctx = canvas.getContext('2d');
+  const ctx = canvas.getContext("2d");
 
   // Background
-  ctx.fillStyle = '#ffffff';
+  ctx.fillStyle = "#ffffff";
   ctx.fillRect(0, 0, 256, 80);
 
   // Border
-  ctx.strokeStyle = '#' + color.toString(16).padStart(6, '0');
+  ctx.strokeStyle = "#" + color.toString(16).padStart(6, "0");
   ctx.lineWidth = 6;
   ctx.strokeRect(3, 3, 250, 74);
 
   // Text
-  ctx.font = 'bold 28px -apple-system, sans-serif';
-  ctx.fillStyle = '#1f2937';
-  ctx.textAlign = 'center';
-  ctx.textBaseline = 'middle';
+  ctx.font = "bold 28px -apple-system, sans-serif";
+  ctx.fillStyle = "#1f2937";
+  ctx.textAlign = "center";
+  ctx.textBaseline = "middle";
   ctx.fillText(name.toUpperCase(), 128, 42);
 
   const textTexture = new THREE.CanvasTexture(canvas);
@@ -744,13 +747,13 @@ function createHumanoid() {
   const bodyMat = new THREE.MeshStandardMaterial({
     color: 0x1a1a1a,
     metalness: 0.6,
-    roughness: 0.3
+    roughness: 0.3,
   });
 
   const darkMat = new THREE.MeshStandardMaterial({
     color: 0x0a0a0a,
     metalness: 0.7,
-    roughness: 0.2
+    roughness: 0.2,
   });
 
   const accentMat = new THREE.MeshStandardMaterial({
@@ -758,13 +761,13 @@ function createHumanoid() {
     metalness: 0.4,
     roughness: 0.3,
     emissive: 0x3b82f6,
-    emissiveIntensity: 0.5
+    emissiveIntensity: 0.5,
   });
 
   const jointMat = new THREE.MeshStandardMaterial({
     color: 0x2a2a2a,
     metalness: 0.8,
-    roughness: 0.15
+    roughness: 0.15,
   });
 
   // === TORSO ===
@@ -796,7 +799,7 @@ function createHumanoid() {
     metalness: 0.8,
     roughness: 0.1,
     emissive: 0x3b82f6,
-    emissiveIntensity: 0.8
+    emissiveIntensity: 0.8,
   });
   const visor = new THREE.Mesh(visorGeo, visorMat);
   visor.position.set(0, 3.25, 0.32);
@@ -810,7 +813,7 @@ function createHumanoid() {
 
   // === ARMS ===
   const createArm = (side) => {
-    const sign = side === 'left' ? -1 : 1;
+    const sign = side === "left" ? -1 : 1;
     const prefix = side;
 
     // Shoulder
@@ -825,7 +828,7 @@ function createHumanoid() {
     upperArm.position.set(sign * 0.65, 2.2, 0);
     upperArm.castShadow = true;
     humanoid.add(upperArm);
-    humanoidParts[prefix + 'UpperArm'] = upperArm;
+    humanoidParts[prefix + "UpperArm"] = upperArm;
 
     // Elbow
     const elbowGeo = new THREE.SphereGeometry(0.1, 16, 16);
@@ -839,7 +842,7 @@ function createHumanoid() {
     lowerArm.position.set(sign * 0.65, 1.55, 0);
     lowerArm.castShadow = true;
     humanoid.add(lowerArm);
-    humanoidParts[prefix + 'LowerArm'] = lowerArm;
+    humanoidParts[prefix + "LowerArm"] = lowerArm;
 
     // Hand
     const handGeo = new THREE.SphereGeometry(0.1, 16, 16);
@@ -848,12 +851,12 @@ function createHumanoid() {
     humanoid.add(hand);
   };
 
-  createArm('left');
-  createArm('right');
+  createArm("left");
+  createArm("right");
 
   // === LEGS ===
   const createLeg = (side) => {
-    const sign = side === 'left' ? -1 : 1;
+    const sign = side === "left" ? -1 : 1;
     const prefix = side;
 
     // Hip joint
@@ -861,7 +864,7 @@ function createHumanoid() {
     const hip = new THREE.Mesh(hipGeo, jointMat);
     hip.position.set(sign * 0.25, 1.45, 0);
     humanoid.add(hip);
-    humanoidParts[prefix + 'Hip'] = hip;
+    humanoidParts[prefix + "Hip"] = hip;
 
     // Upper leg
     const upperLegGeo = new THREE.CylinderGeometry(0.12, 0.14, 0.7, 16);
@@ -869,14 +872,14 @@ function createHumanoid() {
     upperLeg.position.set(sign * 0.25, 1.0, 0);
     upperLeg.castShadow = true;
     humanoid.add(upperLeg);
-    humanoidParts[prefix + 'UpperLeg'] = upperLeg;
+    humanoidParts[prefix + "UpperLeg"] = upperLeg;
 
     // Knee joint
     const kneeGeo = new THREE.SphereGeometry(0.12, 16, 16);
     const knee = new THREE.Mesh(kneeGeo, jointMat);
     knee.position.set(sign * 0.25, 0.6, 0);
     humanoid.add(knee);
-    humanoidParts[prefix + 'Knee'] = knee;
+    humanoidParts[prefix + "Knee"] = knee;
 
     // Lower leg
     const lowerLegGeo = new THREE.CylinderGeometry(0.1, 0.12, 0.6, 16);
@@ -884,14 +887,14 @@ function createHumanoid() {
     lowerLeg.position.set(sign * 0.25, 0.25, 0);
     lowerLeg.castShadow = true;
     humanoid.add(lowerLeg);
-    humanoidParts[prefix + 'LowerLeg'] = lowerLeg;
+    humanoidParts[prefix + "LowerLeg"] = lowerLeg;
 
     // Ankle
     const ankleGeo = new THREE.SphereGeometry(0.08, 16, 16);
     const ankle = new THREE.Mesh(ankleGeo, jointMat);
     ankle.position.set(sign * 0.25, -0.1, 0);
     humanoid.add(ankle);
-    humanoidParts[prefix + 'Ankle'] = ankle;
+    humanoidParts[prefix + "Ankle"] = ankle;
 
     // Foot
     const footGeo = new THREE.BoxGeometry(0.2, 0.08, 0.35);
@@ -899,11 +902,11 @@ function createHumanoid() {
     foot.position.set(sign * 0.25, -0.2, 0.05);
     foot.castShadow = true;
     humanoid.add(foot);
-    humanoidParts[prefix + 'Foot'] = foot;
+    humanoidParts[prefix + "Foot"] = foot;
   };
 
-  createLeg('left');
-  createLeg('right');
+  createLeg("left");
+  createLeg("right");
 
   // Waist
   const waistGeo = new THREE.CylinderGeometry(0.35, 0.4, 0.25, 16);
@@ -920,13 +923,13 @@ function createHumanoid() {
 // ============================================
 function onKeyDown(e) {
   // Enter key to focus console
-  if (e.key === 'Enter') {
-    const consoleInput = document.querySelector('.console-input');
-    const consoleContainer = document.querySelector('.console-container');
+  if (e.key === "Enter") {
+    const consoleInput = document.querySelector(".console-input");
+    const consoleContainer = document.querySelector(".console-container");
 
     if (document.activeElement !== consoleInput) {
-      consoleContainer.classList.remove('minimized');
-      consoleContainer.classList.add('expanded');
+      consoleContainer.classList.remove("minimized");
+      consoleContainer.classList.add("expanded");
       consoleInput.focus();
       e.preventDefault();
       return;
@@ -934,7 +937,7 @@ function onKeyDown(e) {
   }
 
   // Ignore if typing in console
-  if (document.activeElement.classList.contains('console-input')) {
+  if (document.activeElement.classList.contains("console-input")) {
     return;
   }
 
@@ -950,14 +953,14 @@ function onKeyDown(e) {
   }
 
   // E key for interaction
-  if (e.key === 'e' || e.key === 'E') {
+  if (e.key === "e" || e.key === "E") {
     if (nearBuilding) {
       showInfoPanel(nearBuilding);
     }
   }
 
   // Escape to close panels
-  if (e.key === 'Escape') {
+  if (e.key === "Escape") {
     closeInfoPanel();
     document.activeElement.blur();
   }
@@ -978,9 +981,9 @@ function updateKeyVisual(key, active) {
   const keyElement = document.querySelector(`[data-key="${key.toUpperCase()}"]`);
   if (keyElement) {
     if (active) {
-      keyElement.classList.add('active');
+      keyElement.classList.add("active");
     } else {
-      keyElement.classList.remove('active');
+      keyElement.classList.remove("active");
     }
   }
 }
@@ -1054,8 +1057,8 @@ function updateWalkAnimation() {
     const phaseDir = isWalkingBackward ? -1 : 1;
     walkPhase += delta * 10 * phaseDir;
 
-    const hipSwing = Math.sin(walkPhase) * 0.5;  // Increased from 0.4
-    const kneeSwing = Math.abs(Math.sin(walkPhase)) * 0.7;  // Increased
+    const hipSwing = Math.sin(walkPhase) * 0.5; // Increased from 0.4
+    const kneeSwing = Math.abs(Math.sin(walkPhase)) * 0.7; // Increased
     const armSwing = Math.sin(walkPhase) * 0.4;
 
     // Left leg
@@ -1090,17 +1093,16 @@ function updateWalkAnimation() {
     jointStates.rightKnee.load = baseLoad + kneeSwing * 60;
     jointStates.leftAnkle.load = 20 + Math.abs(Math.sin(walkPhase + 0.5)) * 40;
     jointStates.rightAnkle.load = 20 + Math.abs(Math.cos(walkPhase + 0.5)) * 40;
-
   } else {
     // Reset to idle pose
-    ['leftUpperLeg', 'rightUpperLeg', 'leftLowerLeg', 'rightLowerLeg', 'leftUpperArm', 'rightUpperArm'].forEach(part => {
+    ["leftUpperLeg", "rightUpperLeg", "leftLowerLeg", "rightLowerLeg", "leftUpperArm", "rightUpperArm"].forEach((part) => {
       if (humanoidParts[part]) {
         humanoidParts[part].rotation.x = THREE.MathUtils.lerp(humanoidParts[part].rotation.x, 0, 0.15);
       }
     });
 
     // Idle load
-    Object.keys(jointStates).forEach(key => {
+    Object.keys(jointStates).forEach((key) => {
       jointStates[key].load = THREE.MathUtils.lerp(jointStates[key].load, 10, 0.1);
     });
   }
@@ -1117,7 +1119,7 @@ function updateJointColors() {
     return 0x22c55e;
   };
 
-  ['leftHip', 'rightHip', 'leftKnee', 'rightKnee', 'leftAnkle', 'rightAnkle'].forEach(jointName => {
+  ["leftHip", "rightHip", "leftKnee", "rightKnee", "leftAnkle", "rightAnkle"].forEach((jointName) => {
     if (humanoidParts[jointName]) {
       const load = jointStates[jointName].load;
       humanoidParts[jointName].material.emissive = new THREE.Color(getLoadColor(load));
@@ -1149,76 +1151,76 @@ function updateCamera() {
 // JOINT HUD
 // ============================================
 function updateJointHUD() {
-  const canvas = document.getElementById('joint-canvas');
+  const canvas = document.getElementById("joint-canvas");
   if (!canvas) return;
 
-  const ctx = canvas.getContext('2d');
+  const ctx = canvas.getContext("2d");
   const w = canvas.width;
   const h = canvas.height;
 
   ctx.clearRect(0, 0, w, h);
 
   // Draw humanoid silhouette
-  ctx.strokeStyle = '#94a3b8';
+  ctx.strokeStyle = "#94a3b8";
   ctx.lineWidth = 2;
-  ctx.lineCap = 'round';
+  ctx.lineCap = "round";
 
   // Head
   ctx.beginPath();
-  ctx.arc(w/2, 25, 12, 0, Math.PI * 2);
+  ctx.arc(w / 2, 25, 12, 0, Math.PI * 2);
   ctx.stroke();
 
   // Body
   ctx.beginPath();
-  ctx.moveTo(w/2, 37);
-  ctx.lineTo(w/2, 85);
+  ctx.moveTo(w / 2, 37);
+  ctx.lineTo(w / 2, 85);
   ctx.stroke();
 
   // Shoulders
   ctx.beginPath();
-  ctx.moveTo(w/2 - 25, 50);
-  ctx.lineTo(w/2 + 25, 50);
+  ctx.moveTo(w / 2 - 25, 50);
+  ctx.lineTo(w / 2 + 25, 50);
   ctx.stroke();
 
   // Arms
   ctx.beginPath();
-  ctx.moveTo(w/2 - 25, 50);
-  ctx.lineTo(w/2 - 30, 75);
+  ctx.moveTo(w / 2 - 25, 50);
+  ctx.lineTo(w / 2 - 30, 75);
   ctx.stroke();
   ctx.beginPath();
-  ctx.moveTo(w/2 + 25, 50);
-  ctx.lineTo(w/2 + 30, 75);
+  ctx.moveTo(w / 2 + 25, 50);
+  ctx.lineTo(w / 2 + 30, 75);
   ctx.stroke();
 
   // Hip line
   ctx.beginPath();
-  ctx.moveTo(w/2 - 15, 85);
-  ctx.lineTo(w/2 + 15, 85);
+  ctx.moveTo(w / 2 - 15, 85);
+  ctx.lineTo(w / 2 + 15, 85);
   ctx.stroke();
 
   // Legs
   ctx.beginPath();
-  ctx.moveTo(w/2 - 12, 85);
-  ctx.lineTo(w/2 - 15, 120);
-  ctx.lineTo(w/2 - 15, 155);
+  ctx.moveTo(w / 2 - 12, 85);
+  ctx.lineTo(w / 2 - 15, 120);
+  ctx.lineTo(w / 2 - 15, 155);
   ctx.stroke();
   ctx.beginPath();
-  ctx.moveTo(w/2 + 12, 85);
-  ctx.lineTo(w/2 + 15, 120);
-  ctx.lineTo(w/2 + 15, 155);
+  ctx.moveTo(w / 2 + 12, 85);
+  ctx.lineTo(w / 2 + 15, 120);
+  ctx.lineTo(w / 2 + 15, 155);
   ctx.stroke();
 
   // Draw joints with load color
   const drawJoint = (x, y, load) => {
     let color;
-    if (load > 70) color = '#ef4444';
-    else if (load > 50) color = '#f59e0b';
-    else if (load > 30) color = '#eab308';
-    else color = '#22c55e';
+    if (load > 70) color = "#ef4444";
+    else if (load > 50) color = "#f59e0b";
+    else if (load > 30) color = "#eab308";
+    else color = "#22c55e";
 
     const gradient = ctx.createRadialGradient(x, y, 0, x, y, 12);
     gradient.addColorStop(0, color);
-    gradient.addColorStop(1, 'transparent');
+    gradient.addColorStop(1, "transparent");
     ctx.fillStyle = gradient;
     ctx.beginPath();
     ctx.arc(x, y, 12, 0, Math.PI * 2);
@@ -1229,31 +1231,31 @@ function updateJointHUD() {
     ctx.arc(x, y, 6, 0, Math.PI * 2);
     ctx.fill();
 
-    ctx.fillStyle = '#ffffff';
+    ctx.fillStyle = "#ffffff";
     ctx.beginPath();
     ctx.arc(x, y, 2, 0, Math.PI * 2);
     ctx.fill();
   };
 
-  drawJoint(w/2 - 12, 87, jointStates.leftHip.load);
-  drawJoint(w/2 + 12, 87, jointStates.rightHip.load);
-  drawJoint(w/2 - 15, 120, jointStates.leftKnee.load);
-  drawJoint(w/2 + 15, 120, jointStates.rightKnee.load);
-  drawJoint(w/2 - 15, 155, jointStates.leftAnkle.load);
-  drawJoint(w/2 + 15, 155, jointStates.rightAnkle.load);
+  drawJoint(w / 2 - 12, 87, jointStates.leftHip.load);
+  drawJoint(w / 2 + 12, 87, jointStates.rightHip.load);
+  drawJoint(w / 2 - 15, 120, jointStates.leftKnee.load);
+  drawJoint(w / 2 + 15, 120, jointStates.rightKnee.load);
+  drawJoint(w / 2 - 15, 155, jointStates.leftAnkle.load);
+  drawJoint(w / 2 + 15, 155, jointStates.rightAnkle.load);
 
   // Update text values
-  document.querySelectorAll('.joint-item').forEach(item => {
+  document.querySelectorAll(".joint-item").forEach((item) => {
     const joint = item.dataset.joint;
     if (jointStates[joint]) {
       const load = jointStates[joint].load;
-      const valueEl = item.querySelector('.joint-value');
-      const barEl = item.querySelector('.joint-bar-fill');
+      const valueEl = item.querySelector(".joint-value");
+      const barEl = item.querySelector(".joint-bar-fill");
 
-      if (valueEl) valueEl.textContent = load.toFixed(0) + '%';
+      if (valueEl) valueEl.textContent = load.toFixed(0) + "%";
       if (barEl) {
-        barEl.style.width = Math.min(load, 100) + '%';
-        barEl.className = 'joint-bar-fill' + (load > 70 ? ' danger' : load > 50 ? ' warning' : '');
+        barEl.style.width = Math.min(load, 100) + "%";
+        barEl.className = "joint-bar-fill" + (load > 70 ? " danger" : load > 50 ? " warning" : "");
       }
     }
   });
@@ -1277,18 +1279,18 @@ function updateBuildingProximity() {
     }
   });
 
-  const prompt = document.querySelector('.interact-prompt');
+  const prompt = document.querySelector(".interact-prompt");
   if (nearBuilding) {
-    prompt.classList.add('visible');
+    prompt.classList.add("visible");
     prompt.innerHTML = `Press <span class="key">E</span> to explore <span class="building-name">${nearBuilding.toUpperCase()}</span>`;
   } else {
-    prompt.classList.remove('visible');
+    prompt.classList.remove("visible");
   }
 }
 
 function animateBuildings() {
-  Object.values(buildings).forEach(building => {
-    const marker = building.mesh.children.find(c => c.geometry?.type === 'RingGeometry');
+  Object.values(buildings).forEach((building) => {
+    const marker = building.mesh.children.find((c) => c.geometry?.type === "RingGeometry");
     if (marker) {
       marker.userData.pulsePhase += delta * 2;
       marker.material.opacity = 0.3 + Math.sin(marker.userData.pulsePhase) * 0.2;
@@ -1301,23 +1303,23 @@ function animateBuildings() {
 // INFO PANEL
 // ============================================
 function showInfoPanel(key) {
-  const panel = document.getElementById('info-panel');
+  const panel = document.getElementById("info-panel");
   const data = CV_DATA[key];
 
   if (!panel || !data) return;
 
-  panel.querySelector('.info-panel-icon').textContent = data.icon;
-  panel.querySelector('.info-panel-title').textContent = data.title;
-  panel.querySelector('.info-panel-body').innerHTML = data.content;
-  panel.classList.add('active');
+  panel.querySelector(".info-panel-icon").textContent = data.icon;
+  panel.querySelector(".info-panel-title").textContent = data.title;
+  panel.querySelector(".info-panel-body").innerHTML = data.content;
+  panel.classList.add("active");
 
-  printToConsole(`<span class="success">→</span> Accessed: ${data.title}`, 'info');
+  printToConsole(`<span class="success">→</span> Accessed: ${data.title}`, "info");
 }
 
 function closeInfoPanel() {
-  const panel = document.getElementById('info-panel');
+  const panel = document.getElementById("info-panel");
   if (panel) {
-    panel.classList.remove('active');
+    panel.classList.remove("active");
   }
 }
 
@@ -1327,37 +1329,37 @@ window.closeInfoPanel = closeInfoPanel;
 // CONSOLE
 // ============================================
 function initConsole() {
-  const consoleContainer = document.querySelector('.console-container');
-  const consoleHeader = document.querySelector('.console-header');
-  const consoleInput = document.querySelector('.console-input');
+  const consoleContainer = document.querySelector(".console-container");
+  const consoleHeader = document.querySelector(".console-header");
+  const consoleInput = document.querySelector(".console-input");
 
-  consoleHeader.addEventListener('click', () => {
-    consoleContainer.classList.toggle('minimized');
-    consoleContainer.classList.toggle('expanded');
+  consoleHeader.addEventListener("click", () => {
+    consoleContainer.classList.toggle("minimized");
+    consoleContainer.classList.toggle("expanded");
   });
 
-  consoleInput.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter') {
+  consoleInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
       const input = consoleInput.value.trim();
       if (input) {
         executeCommand(input);
-        consoleInput.value = '';
+        consoleInput.value = "";
       }
       e.stopPropagation();
     }
-    if (e.key === 'Escape') {
+    if (e.key === "Escape") {
       consoleInput.blur();
     }
   });
 
-  consoleContainer.classList.add('minimized');
-  consoleContainer.classList.remove('expanded');
+  consoleContainer.classList.add("minimized");
+  consoleContainer.classList.remove("expanded");
 }
 
 function executeCommand(input) {
-  printToConsole(`<span class="prompt">$</span> ${input}`, '');
+  printToConsole(`<span class="prompt">$</span> ${input}`, "");
 
-  const parts = input.toLowerCase().split(' ');
+  const parts = input.toLowerCase().split(" ");
   const cmd = parts[0];
   const args = parts.slice(1);
 
@@ -1372,11 +1374,11 @@ function executeCommand(input) {
   }
 }
 
-function printToConsole(message, type = '') {
-  const output = document.querySelector('.console-output');
+function printToConsole(message, type = "") {
+  const output = document.querySelector(".console-output");
   if (!output) return;
 
-  const line = document.createElement('div');
+  const line = document.createElement("div");
   line.className = `console-line ${type}`;
   line.innerHTML = message;
   output.appendChild(line);
@@ -1387,7 +1389,7 @@ function printToConsole(message, type = '') {
 // GUESTBOOK
 // ============================================
 function showGuestbookForm() {
-  const output = document.querySelector('.console-output');
+  const output = document.querySelector(".console-output");
 
   const formHTML = `
     <div class="guestbook-form" id="guestbook-form">
@@ -1401,39 +1403,39 @@ function showGuestbookForm() {
     </div>
   `;
 
-  output.insertAdjacentHTML('beforeend', formHTML);
+  output.insertAdjacentHTML("beforeend", formHTML);
   output.scrollTop = output.scrollHeight;
 
   setTimeout(() => {
-    document.getElementById('gb-name')?.focus();
+    document.getElementById("gb-name")?.focus();
   }, 100);
 }
 
 function cancelGuestbook() {
-  const form = document.getElementById('guestbook-form');
+  const form = document.getElementById("guestbook-form");
   if (form) form.remove();
-  printToConsole('<span class="system">Guestbook cancelled.</span>', '');
+  printToConsole('<span class="system">Guestbook cancelled.</span>', "");
 }
 
-window.submitGuestbook = async function() {
-  const name = document.getElementById('gb-name').value.trim();
-  const message = document.getElementById('gb-message').value.trim();
+window.submitGuestbook = async function () {
+  const name = document.getElementById("gb-name").value.trim();
+  const message = document.getElementById("gb-message").value.trim();
 
   if (!name || !message) {
     printToConsole('<span class="error">✗ Please fill in both name and message.</span>');
     return;
   }
 
-  const form = document.getElementById('guestbook-form');
+  const form = document.getElementById("guestbook-form");
   if (form) form.remove();
 
-  printToConsole('<span class="system">Submitting...</span>', '');
+  printToConsole('<span class="system">Submitting...</span>', "");
 
   const SCRIPT_URL = window.GUESTBOOK_SCRIPT_URL || null;
 
   const now = new Date();
-  const koreaTime = new Date(now.getTime() + (9 * 60 * 60 * 1000));
-  const dateStr = koreaTime.toISOString().replace('T', ' ').substring(0, 19) + ' KST';
+  const koreaTime = new Date(now.getTime() + 9 * 60 * 60 * 1000);
+  const dateStr = koreaTime.toISOString().replace("T", " ").substring(0, 19) + " KST";
 
   if (!SCRIPT_URL) {
     printToConsole('<span class="warning">⚠ Guestbook not configured.</span>');
@@ -1443,10 +1445,10 @@ window.submitGuestbook = async function() {
 
   try {
     await fetch(SCRIPT_URL, {
-      method: 'POST',
-      mode: 'no-cors',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ date: dateStr, name: name, message: message })
+      method: "POST",
+      mode: "no-cors",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ date: dateStr, name: name, message: message }),
     });
     printToConsole('<span class="success">✓ Message submitted successfully! Thank you!</span>');
   } catch (error) {
@@ -1460,26 +1462,26 @@ window.cancelGuestbook = cancelGuestbook;
 // MINIMAP
 // ============================================
 function initMinimap() {
-  const canvas = document.getElementById('minimap-canvas');
+  const canvas = document.getElementById("minimap-canvas");
   if (!canvas) return;
   canvas.width = 160;
   canvas.height = 140;
 }
 
 function updateMinimap() {
-  const canvas = document.getElementById('minimap-canvas');
+  const canvas = document.getElementById("minimap-canvas");
   if (!canvas) return;
 
-  const ctx = canvas.getContext('2d');
+  const ctx = canvas.getContext("2d");
   const w = canvas.width;
   const h = canvas.height;
   const scale = 2.0;
 
-  ctx.fillStyle = '#f8fafc';
+  ctx.fillStyle = "#f8fafc";
   ctx.fillRect(0, 0, w, h);
 
   // Grid
-  ctx.strokeStyle = '#e2e8f0';
+  ctx.strokeStyle = "#e2e8f0";
   ctx.lineWidth = 0.5;
   for (let i = 0; i <= w; i += 20) {
     ctx.beginPath();
@@ -1495,30 +1497,30 @@ function updateMinimap() {
   }
 
   // Center marker
-  ctx.strokeStyle = '#cbd5e1';
+  ctx.strokeStyle = "#cbd5e1";
   ctx.lineWidth = 1;
   ctx.beginPath();
-  ctx.arc(w/2, h/2, 4, 0, Math.PI * 2);
+  ctx.arc(w / 2, h / 2, 4, 0, Math.PI * 2);
   ctx.stroke();
 
   // Buildings
   Object.entries(buildings).forEach(([key, building]) => {
     const x = w / 2 + building.position.x * scale;
     const y = h / 2 + building.position.z * scale;
-    const color = '#' + building.mesh.userData.accentColor.toString(16).padStart(6, '0');
+    const color = "#" + building.mesh.userData.accentColor.toString(16).padStart(6, "0");
 
     ctx.fillStyle = color;
     ctx.beginPath();
     ctx.arc(x, y, 5, 0, Math.PI * 2);
     ctx.fill();
 
-    ctx.strokeStyle = '#ffffff';
+    ctx.strokeStyle = "#ffffff";
     ctx.lineWidth = 1.5;
     ctx.stroke();
 
-    ctx.fillStyle = '#64748b';
-    ctx.font = '7px -apple-system, sans-serif';
-    ctx.textAlign = 'center';
+    ctx.fillStyle = "#64748b";
+    ctx.font = "7px -apple-system, sans-serif";
+    ctx.textAlign = "center";
     ctx.fillText(key.slice(0, 3).toUpperCase(), x, y + 12);
   });
 
@@ -1530,7 +1532,7 @@ function updateMinimap() {
   ctx.translate(px, py);
   ctx.rotate(-robotRotation);
 
-  ctx.fillStyle = '#3b82f6';
+  ctx.fillStyle = "#3b82f6";
   ctx.beginPath();
   ctx.moveTo(0, -7);
   ctx.lineTo(-4, 4);
@@ -1538,7 +1540,7 @@ function updateMinimap() {
   ctx.closePath();
   ctx.fill();
 
-  ctx.strokeStyle = '#ffffff';
+  ctx.strokeStyle = "#ffffff";
   ctx.lineWidth = 1.5;
   ctx.stroke();
 
@@ -1558,8 +1560,8 @@ function onResize() {
 // MOBILE JOYSTICK
 // ============================================
 function initJoystick() {
-  const joystick = document.querySelector('.joystick-stick');
-  const base = document.querySelector('.joystick-base');
+  const joystick = document.querySelector(".joystick-stick");
+  const base = document.querySelector(".joystick-base");
 
   if (!joystick || !base) return;
 
@@ -1600,22 +1602,22 @@ function initJoystick() {
 
   const handleEnd = () => {
     isDragging = false;
-    joystick.style.transform = 'translate(-50%, -50%)';
+    joystick.style.transform = "translate(-50%, -50%)";
     keys.w = keys.a = keys.s = keys.d = false;
   };
 
-  joystick.addEventListener('mousedown', handleStart);
-  joystick.addEventListener('touchstart', handleStart);
-  document.addEventListener('mousemove', handleMove);
-  document.addEventListener('touchmove', handleMove, { passive: false });
-  document.addEventListener('mouseup', handleEnd);
-  document.addEventListener('touchend', handleEnd);
+  joystick.addEventListener("mousedown", handleStart);
+  joystick.addEventListener("touchstart", handleStart);
+  document.addEventListener("mousemove", handleMove);
+  document.addEventListener("touchmove", handleMove, { passive: false });
+  document.addEventListener("mouseup", handleEnd);
+  document.addEventListener("touchend", handleEnd);
 }
 
 // ============================================
 // INITIALIZE
 // ============================================
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
   init();
   initJoystick();
 });
