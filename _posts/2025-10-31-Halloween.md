@@ -19,7 +19,6 @@ So we decided to play “SICKO MODE” by Travis Scott, and from that day on, I 
 
 I hope you guys read this post while listening to the song! 🎧
 
-
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="https://www.youtube.com/embed/6ONRf7h3Mdk?si=CGGuJCzZfeOUTcw5" class="img-fluid rounded z-depth-1" %}
@@ -52,7 +51,6 @@ I hope you guys read this post while listening to the song! 🎧
 > —Anais Nin
 
 This phrase seems suited to this post, so I just cited here!
-
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
